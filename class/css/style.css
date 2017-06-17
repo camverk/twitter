@@ -1,0 +1,81 @@
+/*box model*/
+body{	
+	margin:0;
+	font-family: Helvetica, sans-serif;
+	font-size:50px;
+}
+
+/*forces padding inside specified box width*/
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color:#ffcc00;
+	color:white;
+
+
+}
+
+.outer{
+
+	background-color: grey;
+	margin: 10px;
+	padding: 30px;
+
+
+
+}
+.inner{
+	background-color: #eeeeee;
+	padding:20px;
+	top:20px;
+	left:0;
+
+
+}
+
+.backup{
+	position:fixed;
+	bottom:0;
+	right: 0;
+	background-color: red;
+	color:white;
+	text-align:center;
+	width: 40px;
+	height:40px;
+	font-size:30px;
+	padding:10px;
+
+}
+
+.block{
+	display:block;
+	background-color: turquoise;
+}
+
+.inline-block{
+	display:inline-block;
+	background-color: orange;
+}
+
+/*doesnt allow margin top and bottom*/
+.inline{
+	display:inline;
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+

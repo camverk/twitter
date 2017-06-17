@@ -1,0 +1,53 @@
+body{
+	margin:0;
+	font-family: Helvetica, sans-serif;
+	background-color:#ececec;
+
+}
+
+.clearfix:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+header{
+	padding:20px;
+	background-color:white;
+
+}
+
+main{
+	margin-top:10px;
+
+}
+
+.left{
+	float:left;
+	width:300px;
+	margin-right:20px;
+}
+.middle{
+	float:left;
+	width:300px;
+	background-color:blue;
+	
+}
+
+.right{
+	float:right;
+	width:300px;
+}
+
+.wrapper{
+	width:940px;
+	margin:0 auto;
+}
+
+.profile{
+background-color:#ffcc00;
+margin-bottom:10px;
+}
+.trends{
+background-color:red;
+margin-bottom:10px;
+}
